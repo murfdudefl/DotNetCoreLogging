@@ -2,6 +2,7 @@ using System;
 
 namespace DotNetCoreLogging
 {
+	[System.Diagnostics.DebuggerDisplay("{Date}, {TemperatureC}, {Summary}")]
 	public class WeatherForecast
 	{
 		public DateTime Date { get; set; }
